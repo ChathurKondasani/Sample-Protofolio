@@ -1,0 +1,106 @@
+body{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.nav{
+  margin: auto;
+  background-color: rgb(40, 133, 199);
+  padding: 20px;
+  border-radius: 0px 0px 10px 10px;
+}
+.nav a{
+  width: fit-content;
+  color: white;
+  font-size: 20px;
+  justify-content: center;
+  margin-right: 20px;
+  display: inline-block;
+  align-items: center;
+  text-decoration: none;
+}
+.nav a.active{
+  background-color: white;
+  padding: 5px;
+  color: rgb(40, 133, 199);
+  border-radius: 20px;
+}
+.nav a:hover{
+  background-color: white;
+  padding: 5px;
+  color: rgb(40, 133, 199);
+  border-radius: 20px;
+  
+}
+
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center{
+    width: 300px;
+    margin-top: 20px; 
+    color: white;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: rgb(40, 133, 199);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 4px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+  }
+  button {
+    background-color:white;
+    color: #04AA6D;
+    font-weight: bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 50px;
+  }
+
+  button:hover {
+    
+    color: white;
+    background-color:#04AA6D;
+  }
+  .foot
+  {
+      height: auto;
+      width: auto;
+      margin: auto;
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      color: white;
+      font-size: 18px;
+      padding: 10px;
+      background-color: rgb(40, 133, 199);
+      border-radius: 10px 10px 0px 0px;
+  }
+
+  h2{
+    margin: auto;
+    height: auto;
+  }  
+  textarea{
+    border-radius: 10px;
+    padding: 10px;
+  } 
